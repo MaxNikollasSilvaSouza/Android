@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Base"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/InvisivelEsquerdo"
+        android:layout_width="12sp"
+        android:layout_height="match_parent"></TextView>
+    <LinearLayout
+        android:id="@+id/Coluna1"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Invisivel1"
+            android:layout_width="match_parent"
+
+            android:layout_height="52sp"></TextView>
+
+        <ImageView
+            android:id="@+id/img0"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:layout_gravity="center">
+
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Invisivel2"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_gravity="center"
+            android:layout_width="120sp"
+            android:layout_height="120sp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Invisivel3"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_gravity="center"
+            android:layout_width="120sp"
+            android:layout_height="120sp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Invisivel4"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/img9"
+            android:layout_gravity="center"
+            android:layout_width="120sp"
+            android:layout_height="120sp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Invisivel5"
+            android:layout_width="match_parent"
+
+            android:layout_height="52sp"></TextView>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Coluna2"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0px"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Invisivel7"
+            android:layout_width="match_parent"
+            android:layout_height="52sp"></TextView>
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_gravity="center"
+            android:layout_width="120sp"
+            android:layout_height="120sp">
+
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Invisivel8"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_gravity="center"
+            android:layout_width="120sp"
+            android:layout_height="120sp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Invisivel9"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/img7"
+            android:layout_gravity="center"
+            android:layout_width="120sp"
+            android:layout_height="120sp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Invisivel10"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/img10"
+            android:layout_width="131dp"
+            android:layout_height="120sp"
+            android:layout_gravity="center"></ImageView>
+
+        <TextView
+            android:id="@+id/Invisivel11"
+            android:layout_width="match_parent"
+            android:layout_height="52sp"></TextView>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Coluna3"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0px"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Invisivel13"
+            android:layout_width="match_parent"
+            android:layout_height="52sp"></TextView>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_gravity="center"
+            android:layout_width="120sp"
+            android:layout_height="120sp">
+
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Invisivel14"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_gravity="center"
+            android:layout_width="120sp"
+            android:layout_height="120sp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Invisivel15"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/img8"
+            android:layout_gravity="center"
+            android:layout_width="120sp"
+            android:layout_height="120sp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Invisivel16"
+
+            android:layout_width="match_parent"
+            android:layout_height="48sp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/img11"
+            android:layout_width="105dp"
+            android:layout_height="120sp"
+            android:layout_gravity="center"></ImageView>
+
+        <TextView
+            android:id="@+id/Invisivel17"
+            android:layout_width="match_parent"
+            android:layout_height="52sp"></TextView>
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/InvisivelDireito"
+        android:layout_width="12sp"
+        android:layout_height="match_parent"></TextView>
+
+</LinearLayout>
+
+
+
+
+
+
+

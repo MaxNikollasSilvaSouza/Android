@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectDificuldade">
+
+    <TextView
+        android:id="@+id/espaco4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+
+    <TextView
+        android:id="@+id/Dificuldade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SelectDificuldade"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/espaco"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+
+    <Button
+        android:id="@+id/facil"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Facil"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/espaco1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+    <Button
+        android:id="@+id/medio"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Medio"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/espaco2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+
+    <Button
+        android:id="@+id/dificil"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Dificil"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/espaco3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

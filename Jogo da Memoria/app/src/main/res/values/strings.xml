@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Passo_a_Passo_Jogo_da_Memoria</string>
+    <string name="BemVindo">Bem Vindo!!!</string>
+    <string name="DigiteSeuNome">Digite seu nome:</string>
+    <string name="Avancar">Next</string>
+    <string name="Voltar">Voltar</string>
+    <string name="Creditos">Créditos</string>
+    <string name="John">João Victor Camargo Montes</string>
+    <string name="Stephany">Stephany Carrasco Vaccaro</string>
+    <string name="Natham">Natham Pereira da Cruz</string>
+    <string name="Max">Max Nikollas Silva Souza</string>
+    <string name="NomeJogo">Jogo da Memória</string>
+    <string name="ComoJoga">Com todas as cartas a mostra, após 5 segundos elas irão se virar e você precisará lembrar onde o par de cada uma está. Após encontrar duas cartas iguais, o par permanecerá virado e contará 1 (um) ponto, quando você conseguir encontrar todos os pares, o jogo acaba.</string>
+    <string name="Vitoria">Parabéns, você ganhou!!!</string>
+    <string name="SelectDificuldade">Selecione a dificuldade:</string>
+    <string name="Facil">Fácil</string>
+    <string name="Medio">Médio</string>
+    <string name="Dificil">Difícil</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ComoJogar">
+
+    <TextView
+        android:id="@+id/Titulo_Creditos"
+        android:textColor="@android:color/black"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/NomeJogo"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/espacamento"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+
+
+    <TextView
+        android:id="@+id/ComoJoga"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Como Jogar?"
+        android:textSize="27dp"/>
+
+    <TextView
+        android:id="@+id/espacim"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+        <TextView
+            android:id="@+id/ComoJogaDescricao"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ComoJoga"
+            android:textSize="27dp"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/Boa_Sorte"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boa Sorte!"
+        android:textSize="27dp"/>
+
+
+
+    <TextView
+        android:id="@+id/espaco_cima_botao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30dp"/>
+
+
+    <Button
+        android:id="@+id/BVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=""
+        android:layout_gravity="center"
+        android:text="@string/Voltar"
+        android:textSize="27dp"/>
+
+    <TextView
+        android:id="@+id/espaco_baixo_botao"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="30dp"/>
+
+
+
+
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TelaDeTesteLinear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"><!--Ele sempre abre e fecha no inicio e no fim (eu nao sabia que fechava no inicio tambem-->
+
+    <TextView
+        android:id="@+id/TextViewInvisivelDeCima"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/valor1"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:text="Valor 1"
+        android:textColor="#0000FF"/>
+
+
+    <EditText
+        android:id="@+id/EditText_valor1"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:text="12"
+        android:textColor="#9A207F"/>
+
+    <LinearLayout
+        android:id="@+id/layout_dos_botoes"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/Botao_adicao"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:layout_weight="1"
+        android:textSize="60px"
+        android:textColor="#956437"
+        />
+
+    <Button
+        android:id="@+id/Botao_subtracao"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:layout_weight="1"
+        android:textColor="#597305"
+        android:textSize="60px"/>
+
+    <Button
+        android:id="@+id/Botao_multiplicacao"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:textSize="60px"
+        android:textColor="#864285"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/Botao_divisao"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:textSize="60px"
+        android:text="/"
+        android:textColor="#654321"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/Botao_limpar"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:textSize="60px"
+        android:text="c"
+        android:textColor="#498514"
+        android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Valor2"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:textColor="#852741"
+        android:text="Valor 2"/>
+
+    <EditText
+        android:id="@+id/EditText_valor2"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:textColor="#369258"
+        android:text="12"/>
+
+    <TextView
+        android:id="@+id/SinalDeIgual"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:textSize="60px"
+        android:textColor="#FF2497"
+        android:text="="/>
+
+    <TextView
+        android:id="@+id/Resultado"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:textSize="60px"
+        android:textColor="#6024F7"
+        android:text="24"/>
+
+    <TextView
+        android:id="@+id/TextViewInvisivelDeBaixo"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:text=""/>
+
+
+
+
+
+</LinearLayout>

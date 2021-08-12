@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SobreNos">
+
+    <TextView
+        android:id="@+id/Titulo_Creditos"
+        android:textColor="@android:color/black"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/Creditos"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/Imagem_creditos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+    <LinearLayout
+        android:id="@+id/Desenvolvedores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/Nome_da_Equipe"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Crédito aos Desenvolvedores"
+        android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/Nome_John"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/John"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/Nome_Natham"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Natham"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/Nome_Max"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Max"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/Nome_Stephany"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Stephany"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/espaco_cima_botao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/BVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=""
+        android:layout_gravity="center"
+        android:text="@string/Voltar"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/espaco_baixo_botao"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text=""
+        android:textSize="30dp"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

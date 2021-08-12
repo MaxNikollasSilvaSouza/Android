@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Base"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Imagem"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="3"
+        android:background="@drawable/principal"
+        />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/dados"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="130sp">
+
+        <TextView
+            android:id="@+id/BemVindo"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BemVindo"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:layout_gravity="center"></TextView>
+
+        <TextView
+            android:id="@+id/InvisivelEspacoC"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"></TextView>
+        <TextView
+            android:id="@+id/TVDigiteSeuNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/DigiteSeuNome"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:layout_gravity="left"></TextView>
+
+        <EditText
+            android:id="@+id/Nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="left"></EditText>
+
+        <TextView
+            android:id="@+id/InvisivelEspacoB"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"></TextView>
+
+        <Button
+            android:id="@+id/BNext"
+
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:text="@string/Avancar"
+            android:onClick="avancar"></Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/InvisivelBaixo"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="10sp"></TextView>
+
+    <LinearLayout
+        android:id="@+id/Informacoes"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_gravity="bottom"
+
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Creditos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Sobre nós"
+            android:textColor="@android:color/black"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/espacoBottom"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="     "
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/ComoJoga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_gravity="bottom"
+            android:text="Como jogar"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
